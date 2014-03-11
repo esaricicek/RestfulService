@@ -1,5 +1,7 @@
 package RestfulService.Status;
 
+
+
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 
@@ -10,6 +12,7 @@ public class Status {
 	@Produces(MediaType.TEXT_HTML)	
 	public String returnTitle()
 	{
-		return "<p>Deneme</p>";		
+		return "<p>Hop</p>";
+		
 	}
 }
